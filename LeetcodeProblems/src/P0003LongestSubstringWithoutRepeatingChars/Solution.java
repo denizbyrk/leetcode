@@ -5,7 +5,7 @@ public class Solution {
 	public static int lengthOfLongestSubstring(String s) {
 
 		int maxLength = 0;
-		String longestSubStr = "";
+		String longestSubstring = "";
 
 		for (int i = 0; i < s.length(); i++) {
 			
@@ -24,11 +24,11 @@ public class Solution {
 			if (subStr.length() > maxLength) {
 				
 				maxLength = subStr.length();
-				longestSubStr = subStr.toString();
+				longestSubstring = subStr.toString();
 			}
 		}
 
-		System.out.println(longestSubStr);
+		System.out.println(longestSubstring);
 		
 		return maxLength;
 	}
