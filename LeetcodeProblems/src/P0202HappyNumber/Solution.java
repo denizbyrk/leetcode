@@ -11,8 +11,6 @@ public class Solution {
 
         while (n != 1 && !existingNums.contains(n)) {
         	
-        	System.out.println(existingNums);
-        	
         	existingNums.add(n);
             
             String nums = "" + n;
