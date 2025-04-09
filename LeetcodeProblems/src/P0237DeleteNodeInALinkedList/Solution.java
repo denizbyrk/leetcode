@@ -12,8 +12,8 @@ public class Solution {
     public static void deleteNode(ListNode node) {
         if (node == null || node.next == null) return;
 
-        node.val = node.next.val;       // Copy value from next node
-        node.next = node.next.next;     // Delete the next node
+        node.val = node.next.val;
+        node.next = node.next.next;
     }
     
     public static void main(String[] args) {
